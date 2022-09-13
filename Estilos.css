@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2? familia= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,900 & display=swap');
+
+
+.titulo{
+    background-color: #3C5986;
+    text-align: center;
+    color: white;
+}
+
+.fondo{
+    background-color:#DFF6FE;
+}
+ 
+.barradenavegacion{
+  background-color: #282F39;  
+  margin-left: auto;
+  margin-right: auto ;
+  padding: 24px;
+
+  height: 250px;
+  border-style: nome;
+  font-family:'Poppins',sans-serif
+
+}
+
+.imagenbarradenavegacion{
+   max-width: auto;
+   max-height:1200px;
+   object-fit: 5;
+   height: 150px;
+}
+
+.botonesdebarra{
+    color:  white;
+    padding: 24px;
+    margin: 0;
+    width: 800px;
+    height: 400px ;
+}
+
+.buscador{
+    margin-right:auto;
+    
+    width: 800px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 100px;
+ 
+}
+
+.formulario-buscador{
+    text-align: center;
+    top: 70px;
+    left: 400px;
+    position: absolute; 
+  
+}
+
+.iconos{
+    top: 800px;
+    text-align: center;
+}
+
+
+.imagenesbarra{
+    width: 50px;
+    ;
+}
+
+.botonesdebarra2{
+    color:  white;
+    padding: 24px;
+    line-height: 60px;
+    font-family:'Poppins',sans-serif;
+}
+
+.concategorias{
+    background-color: #3C5986;
+    color: white;
+    font-family:'Poppins',sans-serif
+
+
+}
+.seccion-info{ 
+    color:  black;
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 70px;
+    font-family:'Poppins',sans-serif;
+    
+}
+
+.contedor-novedades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px ;
+    font-family:'Poppins',sans-serif
+}
+
+.article{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.contenedor-ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px 0; 
+    font-family:'Poppins',sans-serif
+
+}
+
+.contenedor-Newsletter {
+    background-color: #3C5986;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family:'Poppins',sans-serif
+
+}
+
+.piedepagina{
+    background-color: #282F39;
+    color: white;
+    align-self: flex-end;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 32px;
+    font-family:'Poppins',sans-serif
+}
+a{
+    color: white;
+       text-decoration-line: none;
+       font-family:'Poppins',sans-serif
+   } 
+
+.imagegenestarjetas{
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px 0; 
+    width: 150px;
+    height: 150px;
+}
+
+.imagenatencionalcliente{
+    max-width: auto;
+    max-height:1200px;
+    object-fit: 5;
+    height: 150px;
+ 
+}
+

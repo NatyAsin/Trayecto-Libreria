@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="fomulario.css" >
+</head>
+
+<body class="fondo"> 
+    <section>
+        <h1 class="titulosform"> CREAR CUENTA </h1>
+        <h2 class="titulosform"> Comprá más rápido y llevá el control de tus pedidos. ¡en un sólo lugar!</h2>
+        
+        <form action="codigo.php">
+
+         <label>
+          Nombre:
+          <input type="text" name="nombre" required>
+          <span>*</span>
+         </label>
+
+         <label>
+          Apellido:
+          <input type="text" name="apellido">
+          <span>*</span>
+         </label>
+
+         <label>
+          Email:
+          <input type="text" name="email"
+          placeholder="usuario@domimio.com" required>
+          <span>*</span>
+         </label>
+
+         <label>
+          Teléfono:
+          <input type="number" name="Teléfono"
+          placeholder="1523456678">
+          <span>*</span>
+         </label>
+
+         <label>
+          Edad:
+          <input type="number" name="Edad" 
+          min="18" max="99">
+          <span>*</span>
+         </label>
+
+         <br> 
+         <p> En su contraseña deberá incluir al menos una mayúscula, una minúscula y un número.</p>
+         <label>
+          Contraseña:
+          <input type="password" name="contraseña"
+          placeholder="Ingrese su contraseña"
+          pattern="^(?=.*\d)(?=.*[az])(?=.*[AZ])(?!.*\s).*$" step=""> 
+          <span>*</span>
+         </label>
+
+          <br>  
+          <p> En su contraseña deberá incluir al menos una mayúscula, una minúscula y un número.</p>
+         <label>
+          Confirmar Contraseña:
+          <input type="password" name="confirmar contraseña"
+          placeholder="Confirmar de contraseña"
+          pattern="^(?=.*\d)(?=.*[az])(?=.*[AZ])(?!.*\s).*$" step="">
+          <span>*</span>
+         </label>
+
+         <label>
+          Ingrese un mensaje:
+          <textarea name="mensaje" maxlength="250"
+          placeholder="Ingresar mensaje"
+           ></textarea>
+         </label>
+
+        <button>CREAR CUENTA</button>
+
+        </form>
+
+    </section>
+</body>
+</html>
